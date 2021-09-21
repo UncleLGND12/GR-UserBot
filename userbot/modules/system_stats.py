@@ -322,7 +322,6 @@ async def redis(alive):
       
         f" ═──────╼══⌘══╾──────═ \n"
         f"[𝗚𝗥𝗢𝗨𝗣](https://t.me/genticsrbn)  |  "
-        f"[𝗘𝗗𝗜𝗧](@Apajabeba)  |  "
         f"[𝗖𝗛𝗔𝗡𝗘𝗟](https://t.me/CHGeneticsRBN)\n")
     if ALIVE_LOGO:
         try:
