@@ -307,12 +307,12 @@ async def redis(alive):
     await alive.edit("__Connecting...__")
     await alive.edit("__Connecting..__")
     await alive.edit("__Connecting...__")
-    await alive.edit("⚡")
+    await alive.edit("💦")
     await asyncio.sleep(2)
     output = (
-        f"╭═──────╼═⌘═╾───────═\n"
-        f"┃⚡𝙶𝚎𝚗𝚎𝚝𝚒𝚌𝚜  -  𝚁𝚎𝚋𝚘𝚛𝚗⚡\n"
-        f"╰═─────╼══⌘══╾────═ \n"
+        
+        f"    👉𝗞𝗲𝗻𝗮𝗹𝗮𝗻 𝗱𝘂𝗹𝘂 𝘆𝘂𝗸👈\n"
+        f" ═──────╼══⌘══╾──────═ \n"
         f" ° `Nama     :` {DEFAULTUSER} \n"
         f" ° `Username :` @{user.username} \n"
         f" ° `Umur     :` Gada yang tau \n"
@@ -320,10 +320,11 @@ async def redis(alive):
         f" ° `Status   :` Belum menikah \n"
         f" ° `Hoby     :` Random \n"
       
-        f"╭═───────╼⌘╾───────═ \n"
-        f"┃[𝗚𝗥𝗢𝗨𝗣](https://t.me/genticsrbn)  |   "
+        f" ═──────╼══⌘══╾──────═ \n"
+        f"[𝗚𝗥𝗢𝗨𝗣](https://t.me/genticsrbn)  |  "
+        f"[𝗘𝗗𝗜𝗧] (@Apajabeba)  |  "
         f"[𝗖𝗛𝗔𝗡𝗘𝗟](https://t.me/CHGeneticsRBN)\n"
-        f"╰═──────╼═⌘═╾───────═")
+        
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
