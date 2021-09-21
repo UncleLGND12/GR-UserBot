@@ -313,15 +313,15 @@ async def redis(alive):
         f"╭═──────╼═⌘═╾───────═\n"
         f"┃⚡𝙶𝚎𝚗𝚎𝚝𝚒𝚌𝚜  -  𝚁𝚎𝚋𝚘𝚛𝚗⚡\n"
         f"╰═─────╼══⌘══╾────═ \n"
-        f" ° `Name     :` {DEFAULTUSER} \n"
+        f" ° `Nama     :` {DEFAULTUSER} \n"
         f" ° `Username :` @{user.username} \n"
-        f" ° `Telethon :` Ver {version.__version__} \n"
-        f" ° `Python   :` Ver {python_version()} \n"
-        f" ° `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
-        f" ° `Bot Ver  :` {BOT_VER} \n"
-        f" ° `Modules  :` {len(modules)} Modules \n"
+        f" ° `Umur     :` Gada yang tau \n"
+        f" ° `Askot    :` Dimana aja \n"
+        f" ° `Status   :` Belum menikah \n"
+        f" ° `Hoby     :` Random \n"
+      
         f"╭═───────╼⌘╾───────═ \n"
-        f"┃[𝗚𝗥𝗢𝗨𝗣](https://t.me/genticsrbn)  |  [𝗦𝘂𝗽𝗽𝗼𝗿𝘁](t.me/GeezSupportGroup)  |  "
+        f"┃[𝗚𝗥𝗢𝗨𝗣](https://t.me/genticsrbn)  |   "
         f"[𝗖𝗛𝗔𝗡𝗘𝗟](https://t.me/CHGeneticsRBN)\n"
         f"╰═──────╼═⌘═╾───────═")
     if ALIVE_LOGO:
