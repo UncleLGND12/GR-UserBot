@@ -173,15 +173,15 @@ async def _(event):
                 if pic.endswith((".tgs", ".webp")):
                     await bot.send_message(event.chat_id, file=pic)
                     await bot.send_message(
-                        event.chat_id, f"OᖴᖴᒪIᑎE\n\n**▸ {ALIVE_NAME} SEDANG OFFLINE**\n**▸ ALASAN :** `{reason}`"
+                        event.chat_id, f"OᖴᖴᒪIᑎE\n\n**▸ {ALIVE_NAME} SEDANG OFFLINE**\n**▸ Karena ** `{reason}`"
                     )
                 else:
                     await bot.send_message(
-                        event.chat_id, f"OᖴᖴᒪIᑎE\n\n**▸ {ALIVE_NAME} SEDANG OFFLINE**\n**▸ ALASAN :** `{reason}`", file=pic
+                        event.chat_id, f"OᖴᖴᒪIᑎE\n\n**▸ {ALIVE_NAME} SEDANG OFFLINE**\n**▸ Karena ** `{reason}`", file=pic
                     )
-            except BaseException:
+            except BaseException
                 await bot.send_message(
-                    event.chat_id, f"OᖴᖴᒪIᑎE\n\n**▸ {ALIVE_NAME} SEDANG OFFLINE**\n**▸ ALASAN :** `{reason}`"
+                    event.chat_id, f"OᖴᖴᒪIᑎE\n\n**▸ {ALIVE_NAME} SEDANG OFFLINE**\n**▸ Karena** `{reason}`"
                 )
         else:
             try:
@@ -202,15 +202,15 @@ async def _(event):
                 if pic.endswith((".tgs", ".webp")):
                     await bot.send_message(BOTLOG_CHATID, file=pic)
                     await bot.send_message(
-                        BOTLOG_CHATID, f"**OᖴᖴᒪIᑎE**\n\n**▸ {ALIVE_NAME} SEDANG OFFLINE**\n**▸ ALASANAN :** `{reason}`"
+                        BOTLOG_CHATID, f"**OᖴᖴᒪIᑎE**\n\n**▸ {ALIVE_NAME} SEDANG OFFLINE**\n**▸ Karena ** `{reason}`"
                     )
                 else:
                     await bot.send_message(
-                        BOTLOG_CHATID, f"*OᖴᖴᒪIᑎE**\n\n**▸ {ALIVE_NAME} SEDANG OFFLINE**\n**▸ ALASAN :** `{reason}`", file=pic
+                        BOTLOG_CHATID, f"*OᖴᖴᒪIᑎE**\n\n**▸ {ALIVE_NAME} SEDANG OFFLINE**\n**▸ Karena ** `{reason}`", file=pic
                     )
             elif reason:
                 await bot.send_message(
-                    BOTLOG_CHATID, f"\n**OᖴᖴᒪIᑎE**\n\n**▸ {ALIVE_NAME}**\n**▸ ALASAN :** `{reason}`\n"
+                    BOTLOG_CHATID, f"\n**OᖴᖴᒪIᑎE**\n\n**▸ {ALIVE_NAME}**\n**▸ Karena ** `{reason}`\n"
                 )
             elif pic:
                 if pic.endswith((".tgs", ".webp")):
