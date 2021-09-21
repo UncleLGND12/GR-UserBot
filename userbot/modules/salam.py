@@ -7,25 +7,25 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 # ============================================
 
 
-@register(outgoing=True, pattern='^.P(?: |$)(.*)')
+@register(outgoing=True, pattern='^P(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Hallo Gaes. . . . .`")
 
 
-@register(outgoing=True, pattern='^.p(?: |$)(.*)')
+@register(outgoing=True, pattern='^p(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Hallo Gaes. . . . .`")
 
 
-@register(outgoing=True, pattern='^.L(?: |$)(.*)')
+@register(outgoing=True, pattern='^L(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Iya kenapa . . . ?`")
 
 
-@register(outgoing=True, pattern='^.l(?: |$)(.*)')
+@register(outgoing=True, pattern='^L(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Iya kenapa. .?`")
