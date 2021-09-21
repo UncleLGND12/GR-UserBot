@@ -311,18 +311,18 @@ async def redis(alive):
     await asyncio.sleep(2)
     output = (
         f"╭═──────╼═⌘═╾───────═\n"
-        f"┃⚡ＧΞ ΞＺ - ＰＲＯＪＥＣＴ⚡\n"
-        f"╰═─────╼══⌘══╾─────═ \n"
-        f" ❍ `Name     :` {DEFAULTUSER} \n"
-        f" ❍ `Username :` @{user.username} \n"
-        f" ❍ `Telethon :` Ver {version.__version__} \n"
-        f" ❍ `Python   :` Ver {python_version()} \n"
-        f" ❍ `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
-        f" ❍ `Bot Ver  :` {BOT_VER} \n"
-        f" ❍ `Modules  :` {len(modules)} Modules \n"
+        f"┃⚡𝙶𝚎𝚗𝚎𝚝𝚒𝚌𝚜  -  𝚁𝚎𝚋𝚘𝚛𝚗⚡\n"
+        f"╰═─────╼══⌘══╾────═ \n"
+        f" ° `Name     :` {DEFAULTUSER} \n"
+        f" ° `Username :` @{user.username} \n"
+        f" ° `Telethon :` Ver {version.__version__} \n"
+        f" ° `Python   :` Ver {python_version()} \n"
+        f" ° `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
+        f" ° `Bot Ver  :` {BOT_VER} \n"
+        f" ° `Modules  :` {len(modules)} Modules \n"
         f"╭═───────╼⌘╾───────═ \n"
-        f"┃[𝗥𝗲𝗽𝗼](https://github.com/Geez-UserBot)  |  [𝗦𝘂𝗽𝗽𝗼𝗿𝘁](t.me/GeezSupportGroup)  |  "
-        f"[𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺](https://Instagram.com/vckyouuu)\n"
+        f"┃[𝗚𝗥𝗢𝗨𝗣](https://t.me/genticsrbn)  |  [𝗦𝘂𝗽𝗽𝗼𝗿𝘁](t.me/GeezSupportGroup)  |  "
+        f"[𝗖𝗛𝗔𝗡𝗘𝗟](https://t.me/CHGeneticsRBN)\n"
         f"╰═──────╼═⌘═╾───────═")
     if ALIVE_LOGO:
         try:
