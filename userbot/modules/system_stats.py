@@ -319,10 +319,10 @@ async def redis(alive):
         f" ° `Askot    :` Dimana aja \n"
         f" ° `Status   :` Belum menikah \n"
         f" ° `Hoby     :` Random \n"
-      
-        f" ═──────╼══⌘══╾──────═ \n"
-        f"[𝗚𝗥𝗢𝗨𝗣](https://t.me/genticsrbn)  |  "
-        f"[𝗖𝗛𝗔𝗡𝗘𝗟](https://t.me/CHGeneticsRBN)\n")
+        f"╭═───────╼⌘╾───────═ \n"
+        f"┃[𝗥𝗲𝗽𝗼](https://github.com/Geez-UserBot)  |  [𝗦𝘂𝗽𝗽𝗼𝗿𝘁](t.me/GeezSupportGroup)  |  "
+        f"[𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺](https://Instagram.com/vckyouuu)\n"
+        f"╰═──────╼═⌘═╾───────═")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
