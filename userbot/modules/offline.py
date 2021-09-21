@@ -181,7 +181,7 @@ async def _(event):
                     )
             except BaseException
                 await bot.send_message(
-                    event.chat_id, f"OᖴᖴᒪIᑎE\n\n**▸ {ALIVE_NAME} SEDANG OFFLINE**\n**▸ Karena** `{reason}`"
+                    event.chat_id, f"OᖴᖴᒪIᑎE\n\n**▸ {ALIVE_NAME} SEDANG OFFLINE**\n**▸ Karena ** `{reason}`"
                 )
         else:
             try:
