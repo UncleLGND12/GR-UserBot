@@ -1,6 +1,6 @@
 {
   "name": "⚡𝗚𝗲𝗲𝘇 𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡",
-  "description": "🚫Geez-UserBot🚫 USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "description": "🚫GR-UserBot🚫 USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
   "logo": "",
   "keywords": [
     "telegram",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Vckyou/Geez-UserBot",
+  "repository": "https://github.com/UncleLGND12/GR-UserBot",
   "telegram": "https://t.me/VckyouuBitch",
   "success_url": "https://t.me/CariTemanRandom",
   "stack": "container",
