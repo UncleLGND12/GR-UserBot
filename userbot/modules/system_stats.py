@@ -307,10 +307,9 @@ async def redis(alive):
     await alive.edit("__Connecting...__")
     await alive.edit("__Connecting..__")
     await alive.edit("__Connecting...__")
-    await alive.edit("💦")
+    await alive.edit("⚡")
     await asyncio.sleep(2)
     output = (
-        
         f"    👉𝗞𝗲𝗻𝗮𝗹𝗮𝗻 𝗱𝘂𝗹𝘂 𝘆𝘂𝗸👈\n"
         f" ═──────╼══⌘══╾──────═ \n"
         f" ° `Nama     :` {DEFAULTUSER} \n"
